@@ -36,14 +36,12 @@
 
 ## 🧪 Cara Kerja (Contoh)
 
-```bash 
-🧪 Cara Kerja (Contoh)
 
 ### write() dipanggil → string "Halo" masuk ke buffer kernel.
 
 ```bash
 write() dipanggil → string "Halo" masuk ke buffer kernel.
-
+```
 ### read() dipanggil → kernel kirim isi buffer ("Halo") ke user.
 
 
@@ -88,18 +86,20 @@ karakter/
 
 ```bash
 make
+```
 
 ### 2. Load module ke kernel
 
 ```bash
 sudo insmod karakter.ko
-
+```
 
 ### 3. Cek pesan kernel via dmesg
 
 ```bash
 
 dmesg | tail
+```
 
 ### 4. Buat device file (jika belum otomatis)
 
@@ -112,20 +112,19 @@ sudo chmod 666 /dev/karakter
 ### 1. Tulis ke device
 ```bash
 echo "Halo kernel" > /dev/karakter
-
+```
 ## 🧼 Uninstall / Cleanup
 
 ### 1. Hapus modul
 
 ```bash
 sudo rmmod karakter
-
+```
 ### 2. Bersihkan file build
 
 ```bash
-
 make clean
-
+```
 
 ## 🐛 Troubleshooting
 
