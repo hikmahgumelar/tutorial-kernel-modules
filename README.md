@@ -105,11 +105,10 @@ dmesg | tail
 ```
 
 ### 4. Buat device file (jika belum otomatis)
-
-# Ganti <major_number> dengan nomor dari output dmesg
-sudo mknod /dev/karakter c <major_number> 0
+```bash
+sudo mknod /dev/karakter c <major_number> 0 # Ganti <major_number> dengan nomor dari output dmesg
 sudo chmod 666 /dev/karakter
-
+```
 ## 🚀 Penggunaan
 
 ### 1. Tulis ke device
