@@ -70,12 +70,12 @@ Virtual file seperti /proc atau /sys
 ---
 
 ## 📁 Struktur Proyek
-
+```text
 karakter/
 ├── karakter.c # Source code modul kernel
 ├── Makefile # Makefile untuk build modul
 └── README.md # Dokumentasi proyek
-
+```
 
 ---
 
@@ -146,12 +146,12 @@ make clean
 
 ## 📄 Lisensi
 
-### Proyek ini menggunakan lisensi GPLv2 sesuai dengan ketentuan modul kernel Linux.
+#### Proyek ini menggunakan lisensi GPLv2 sesuai dengan ketentuan modul kernel Linux.
 
 
 ## 👨💻 Author
 
-Created by Hikmah gumelar
-feel free to fork, improve , or contribute
+#### Created by Hikmah gumelar
+#### feel free to fork, improve , or contribute
 
 
