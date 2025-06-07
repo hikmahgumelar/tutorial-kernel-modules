@@ -37,13 +37,16 @@
 ## 🧪 Cara Kerja (Contoh)
 
 
-### write() dipanggil → string "Halo" masuk ke buffer kernel.
+#### write() dipanggil → string "Halo" masuk ke buffer kernel.
 
 ```bash
 write() dipanggil → string "Halo" masuk ke buffer kernel.
 ```
-### read() dipanggil → kernel kirim isi buffer ("Halo") ke user.
 
+#### read() dipanggil → kernel kirim isi buffer ("Halo") ke user.
+```bash
+Virtual file seperti /proc atau /sys
+```
 
 ## 🧠 Kenapa Ini Berguna?
 
